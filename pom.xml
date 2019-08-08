@@ -27,5 +27,17 @@
 	<build>
 		<finalName>cangkitsolutions</finalName>
 	</build>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Jayapaul-releases</name>
+        <url>http://localhost:8081/artifactory/jayapal_devops</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Jayapaul-snapshots</name>
+        <url>http://localhost:8081/artifactory/jayapal_devops</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
 
