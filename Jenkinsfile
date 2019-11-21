@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('clone') {
       steps {
-        bat 'REM tets'
+        git(url: 'https://github.com/narendrasingamaneni91/Narendraapplication.git', branch: 'Master')
       }
     }
 
