@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('clone') {
       steps {
-        git(url: 'https://github.com/narendrasingamaneni91/Narendraapplication.git', branch: 'Master')
+        git(url: 'https://github.com/narendrasingamaneni91/Narendraapplication.git', branch: 'master')
       }
     }
 
